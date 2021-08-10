@@ -1,0 +1,39 @@
+
+/*  Style rules for HTML elements  */
+/*  comments are ignored by the browsers */
+
+body
+{
+    background-color: cornsilk;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+   float: left; 
+}
+
+ul li a {
+    display: block;
+    background-color: #ffC622;
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #8C1D40 ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+hr {
+    clear: both;
+}
+
+#by-line{
+     float:right
+}
